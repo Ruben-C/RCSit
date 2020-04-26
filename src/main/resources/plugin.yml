@@ -1,0 +1,10 @@
+name: RCSit
+version: ${project.version}
+main: org.rcbox.rcsit.Rcsit
+api-version: 1.13
+load: STARTUP
+
+commands:
+  sit:
+    description: Sits on staircases
+    usage: /sit
